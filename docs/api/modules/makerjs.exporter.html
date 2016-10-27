@@ -1,0 +1,977 @@
+---
+layout: posts
+title: Api - exporter Module
+---
+<div class="container container-main toggle-visibilityprivate toggle-public">
+<section class="tsd-panel-group tsd-index-group">
+	<h2>Index</h2>
+	<section class="tsd-panel tsd-index-panel">
+		<div class="tsd-index-content">
+			<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+				<h3>Classes</h3>
+				<ul class="tsd-index-list">
+					<li class="tsd-kind-class tsd-parent-kind-module tsd-is-private"><a href="../classes/makerjs.exporter.exporter.html" class="tsd-kind-icon">Exporter</a></li>
+					<li class="tsd-kind-class tsd-parent-kind-module tsd-is-private"><a href="../classes/makerjs.exporter.xmltag.html" class="tsd-kind-icon">Xml<wbr>Tag</a></li>
+				</ul>
+			</section>
+			<section class="tsd-index-section ">
+				<h3>Interfaces</h3>
+				<ul class="tsd-index-list">
+					<li class="tsd-kind-interface tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="../interfaces/makerjs.exporter.ichainlinktopathdatamap.html" class="tsd-kind-icon">IChain<wbr>Link<wbr>ToPath<wbr>Data<wbr>Map</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/makerjs.exporter.idxfrenderoptions.html" class="tsd-kind-icon">IDXFRender<wbr>Options</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module tsd-is-private"><a href="../interfaces/makerjs.exporter.iexportoptions.html" class="tsd-kind-icon">IExport<wbr>Options</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="../interfaces/makerjs.exporter.ilayerelements.html" class="tsd-kind-icon">ILayer<wbr>Elements</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/makerjs.exporter.iopenjscadoptions.html" class="tsd-kind-icon">IOpen<wbr>JsCad<wbr>Options</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/makerjs.exporter.iopenjscadoptionsmap.html" class="tsd-kind-icon">IOpen<wbr>JsCad<wbr>Options<wbr>Map</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/makerjs.exporter.ipdfrenderoptions.html" class="tsd-kind-icon">IPDFRender<wbr>Options</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="../interfaces/makerjs.exporter.ipathdatamap.html" class="tsd-kind-icon">IPath<wbr>Data<wbr>Map</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="../interfaces/makerjs.exporter.ipathdirectionalfunction.html" class="tsd-kind-icon">IPath<wbr>Directional<wbr>Function</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="../interfaces/makerjs.exporter.ipathdirectionalfunctionmap.html" class="tsd-kind-icon">IPath<wbr>Directional<wbr>Function<wbr>Map</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/makerjs.exporter.isvgrenderoptions.html" class="tsd-kind-icon">ISVGRender<wbr>Options</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-kind-icon">ISvg<wbr>Path<wbr>Data</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="../interfaces/makerjs.exporter.isvgpathdatamap.html" class="tsd-kind-icon">ISvg<wbr>Path<wbr>Data<wbr>Map</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module tsd-is-private"><a href="../interfaces/makerjs.exporter.ixmltagattrs.html" class="tsd-kind-icon">IXml<wbr>Tag<wbr>Attrs</a></li>
+					<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/makerjs.exporter.svgunitconversion.html" class="tsd-kind-icon">svg<wbr>Unit<wbr>Conversion</a></li>
+				</ul>
+			</section>
+			<section class="tsd-index-section ">
+				<h3>Variables</h3>
+				<ul class="tsd-index-list">
+					<li class="tsd-kind-variable tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#chainlinktopathdatamap" class="tsd-kind-icon">chain<wbr>Link<wbr>ToPath<wbr>Data<wbr>Map</a></li>
+					<li class="tsd-kind-variable tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#dxfunit" class="tsd-kind-icon">dxf<wbr>Unit</a></li>
+					<li class="tsd-kind-variable tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#svgpathdatamap" class="tsd-kind-icon">svg<wbr>Path<wbr>Data<wbr>Map</a></li>
+					<li class="tsd-kind-variable tsd-parent-kind-module"><a href="makerjs.exporter.html#svgunit" class="tsd-kind-icon">svg<wbr>Unit</a></li>
+				</ul>
+			</section>
+			<section class="tsd-index-section ">
+				<h3>Functions</h3>
+				<ul class="tsd-index-list">
+					<li class="tsd-kind-function tsd-parent-kind-module"><a href="makerjs.exporter.html#chaintosvgpathdata" class="tsd-kind-icon">chain<wbr>ToSVGPath<wbr>Data</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-not-exported"><a href="makerjs.exporter.html#exportfromoptionsmap" class="tsd-kind-icon">export<wbr>From<wbr>Options<wbr>Map</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#facetsizetoresolution" class="tsd-kind-icon">facet<wbr>Size<wbr>ToResolution</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#getbeziermodelswithpaths" class="tsd-kind-icon">get<wbr>Bezier<wbr>Models<wbr>With<wbr>Paths</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#getpathdatabylayer" class="tsd-kind-icon">get<wbr>Path<wbr>Data<wbr>ByLayer</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module"><a href="makerjs.exporter.html#pathtosvgpathdata" class="tsd-kind-icon">path<wbr>ToSVGPath<wbr>Data</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#pathstoopenjscad" class="tsd-kind-icon">paths<wbr>ToOpen<wbr>JsCad</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#startsvgpathdata" class="tsd-kind-icon">start<wbr>Svg<wbr>Path<wbr>Data</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#svgarcdata" class="tsd-kind-icon">svg<wbr>Arc<wbr>Data</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#svgbezierdata" class="tsd-kind-icon">svg<wbr>Bezier<wbr>Data</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#svgcircledata" class="tsd-kind-icon">svg<wbr>Circle<wbr>Data</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#svgcoords" class="tsd-kind-icon">svg<wbr>Coords</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module"><a href="makerjs.exporter.html#todxf" class="tsd-kind-icon">toDXF</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module"><a href="makerjs.exporter.html#toopenjscad" class="tsd-kind-icon">to<wbr>Open<wbr>JsCad</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module"><a href="makerjs.exporter.html#topdf" class="tsd-kind-icon">toPDF</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module"><a href="makerjs.exporter.html#tostl" class="tsd-kind-icon">toSTL</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module"><a href="makerjs.exporter.html#tosvg" class="tsd-kind-icon">toSVG</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private"><a href="makerjs.exporter.html#trygetmodelunits" class="tsd-kind-icon">try<wbr>Get<wbr>Model<wbr>Units</a></li>
+					<li class="tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported"><a href="makerjs.exporter.html#wrap" class="tsd-kind-icon">wrap</a></li>
+				</ul>
+			</section>
+		</div>
+	</section>
+</section>
+<section class="tsd-panel-group tsd-member-group ">
+	<h2>Variables</h2>
+	<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="chainlinktopathdatamap" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> chain<wbr>Link<wbr>ToPath<wbr>Data<wbr>Map</h3>
+		<div class="tsd-signature tsd-kind-icon">chain<wbr>Link<wbr>ToPath<wbr>Data<wbr>Map<span class="tsd-signature-symbol">:</span> <a href="../interfaces/makerjs.exporter.ichainlinktopathdatamap.html" class="tsd-signature-type">IChainLinkToPathDataMap</a></div>
+		<aside class="tsd-sources">
+			<ul>
+				<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L25">core/svg.ts:25</a></li>
+			</ul>
+		</aside>
+		<div class="tsd-comment tsd-typography">
+		</div>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="dxfunit" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> dxf<wbr>Unit</h3>
+		<div class="tsd-signature tsd-kind-icon">dxf<wbr>Unit<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+		<aside class="tsd-sources">
+			<ul>
+				<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/dxf.ts#L150">core/dxf.ts:150</a></li>
+			</ul>
+		</aside>
+		<div class="tsd-comment tsd-typography">
+		</div>
+		<div class="tsd-type-declaration">
+			<h4>Type declaration</h4>
+			<ul class="tsd-parameters">
+				<li class="tsd-parameter-index-signature">
+					<h5><span class="tsd-signature-symbol">[</span>unitType: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">number</span></h5>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="svgpathdatamap" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> svg<wbr>Path<wbr>Data<wbr>Map</h3>
+		<div class="tsd-signature tsd-kind-icon">svg<wbr>Path<wbr>Data<wbr>Map<span class="tsd-signature-symbol">:</span> <a href="../interfaces/makerjs.exporter.isvgpathdatamap.html" class="tsd-signature-type">ISvgPathDataMap</a></div>
+		<aside class="tsd-sources">
+			<ul>
+				<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L107">core/svg.ts:107</a></li>
+			</ul>
+		</aside>
+		<div class="tsd-comment tsd-typography">
+		</div>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-module">
+		<a name="svgunit" class="tsd-anchor"></a>
+		<h3>svg<wbr>Unit</h3>
+		<div class="tsd-signature tsd-kind-icon">svg<wbr>Unit<span class="tsd-signature-symbol">:</span> <a href="../interfaces/makerjs.exporter.svgunitconversion.html" class="tsd-signature-type">svgUnitConversion</a></div>
+		<aside class="tsd-sources">
+			<ul>
+				<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L634">core/svg.ts:634</a></li>
+			</ul>
+		</aside>
+		<div class="tsd-comment tsd-typography">
+			<div class="lead">
+				<p>Map of MakerJs unit system to SVG unit system</p>
+			</div>
+		</div>
+	</section>
+</section>
+<section class="tsd-panel-group tsd-member-group ">
+	<h2>Functions</h2>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+		<a name="chaintosvgpathdata" class="tsd-anchor"></a>
+		<h3>chain<wbr>ToSVGPath<wbr>Data</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+			<li class="tsd-signature tsd-kind-icon">chain<wbr>ToSVGPath<wbr>Data<span class="tsd-signature-symbol">(</span>chain<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ichain.html" class="tsd-signature-type">IChain</a>, offset<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L56">core/svg.ts:56</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Convert a chain to SVG path data.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>chain: <a href="../interfaces/makerjs.ichain.html" class="tsd-signature-type">IChain</a></h5>
+					</li>
+					<li>
+						<h5>offset: <a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-not-exported">
+		<a name="exportfromoptionsmap" class="tsd-anchor"></a>
+		<h3>export<wbr>From<wbr>Options<wbr>Map</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">export<wbr>From<wbr>Options<wbr>Map<span class="tsd-signature-symbol">(</span>modelToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a>, optionsMap<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.exporter.iopenjscadoptionsmap.html" class="tsd-signature-type">IOpenJsCadOptionsMap</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/openjscad.ts#L196">core/openjscad.ts:196</a></li>
+					</ul>
+				</aside>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>modelToExport: <a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a></h5>
+					</li>
+					<li>
+						<h5>optionsMap: <a href="../interfaces/makerjs.exporter.iopenjscadoptionsmap.html" class="tsd-signature-type">IOpenJsCadOptionsMap</a></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="facetsizetoresolution" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> facet<wbr>Size<wbr>ToResolution</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">facet<wbr>Size<wbr>ToResolution<span class="tsd-signature-symbol">(</span>arcOrCircle<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipathcircle.html" class="tsd-signature-type">IPathCircle</a>, facetSize<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/openjscad.ts#L31">core/openjscad.ts:31</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>arcOrCircle: <a href="../interfaces/makerjs.ipathcircle.html" class="tsd-signature-type">IPathCircle</a></h5>
+					</li>
+					<li>
+						<h5>facetSize: <span class="tsd-signature-type">number</span></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="getbeziermodelswithpaths" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Bezier<wbr>Models<wbr>With<wbr>Paths</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">get<wbr>Bezier<wbr>Models<wbr>With<wbr>Paths<span class="tsd-signature-symbol">(</span>modelToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.iwalkmodel.html" class="tsd-signature-type">IWalkModel</a><span class="tsd-signature-symbol">[]</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L166">core/svg.ts:166</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>modelToExport: <a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <a href="../interfaces/makerjs.iwalkmodel.html" class="tsd-signature-type">IWalkModel</a><span class="tsd-signature-symbol">[]</span></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="getpathdatabylayer" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Path<wbr>Data<wbr>ByLayer</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">get<wbr>Path<wbr>Data<wbr>ByLayer<span class="tsd-signature-symbol">(</span>modelToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a>, offset<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a>, options<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ifindchainsoptions.html" class="tsd-signature-type">IFindChainsOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.exporter.ipathdatamap.html" class="tsd-signature-type">IPathDataMap</a></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L204">core/svg.ts:204</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>modelToExport: <a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a></h5>
+					</li>
+					<li>
+						<h5>offset: <a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a></h5>
+					</li>
+					<li>
+						<h5>options: <a href="../interfaces/makerjs.ifindchainsoptions.html" class="tsd-signature-type">IFindChainsOptions</a></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <a href="../interfaces/makerjs.exporter.ipathdatamap.html" class="tsd-signature-type">IPathDataMap</a></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+		<a name="pathtosvgpathdata" class="tsd-anchor"></a>
+		<h3>path<wbr>ToSVGPath<wbr>Data</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+			<li class="tsd-signature tsd-kind-icon">path<wbr>ToSVGPath<wbr>Data<span class="tsd-signature-symbol">(</span>pathToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a>, offset<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a>, offset2<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L148">core/svg.ts:148</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Convert a path to SVG path data.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>pathToExport: <a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a></h5>
+					</li>
+					<li>
+						<h5>offset: <a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a></h5>
+					</li>
+					<li>
+						<h5>offset2: <a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="pathstoopenjscad" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> paths<wbr>ToOpen<wbr>JsCad</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">paths<wbr>ToOpen<wbr>JsCad<span class="tsd-signature-symbol">(</span>modelContext<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a>, facetSize<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/openjscad.ts#L45">core/openjscad.ts:45</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>modelContext: <a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> facetSize: <span class="tsd-signature-type">number</span></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="startsvgpathdata" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> start<wbr>Svg<wbr>Path<wbr>Data</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">start<wbr>Svg<wbr>Path<wbr>Data<span class="tsd-signature-symbol">(</span>start<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a>, d<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L93">core/svg.ts:93</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>start: <a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a></h5>
+					</li>
+					<li>
+						<h5>d: <a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="svgarcdata" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> svg<wbr>Arc<wbr>Data</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">svg<wbr>Arc<wbr>Data<span class="tsd-signature-symbol">(</span>d<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a>, radius<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, endPoint<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a>, largeArc<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, decreasing<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L607">core/svg.ts:607</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>d: <a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a></h5>
+					</li>
+					<li>
+						<h5>radius: <span class="tsd-signature-type">number</span></h5>
+					</li>
+					<li>
+						<h5>endPoint: <a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> largeArc: <span class="tsd-signature-type">boolean</span></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> decreasing: <span class="tsd-signature-type">boolean</span></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="svgbezierdata" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> svg<wbr>Bezier<wbr>Data</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">svg<wbr>Bezier<wbr>Data<span class="tsd-signature-symbol">(</span>d<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a>, seed<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipathbezierseed.html" class="tsd-signature-type">IPathBezierSeed</a>, reversed<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L593">core/svg.ts:593</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>d: <a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a></h5>
+					</li>
+					<li>
+						<h5>seed: <a href="../interfaces/makerjs.ipathbezierseed.html" class="tsd-signature-type">IPathBezierSeed</a></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> reversed: <span class="tsd-signature-type">boolean</span></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="svgcircledata" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> svg<wbr>Circle<wbr>Data</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">svg<wbr>Circle<wbr>Data<span class="tsd-signature-symbol">(</span>radius<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L573">core/svg.ts:573</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>radius: <span class="tsd-signature-type">number</span></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <a href="../interfaces/makerjs.exporter.isvgpathdata.html" class="tsd-signature-type">ISvgPathData</a></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="svgcoords" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> svg<wbr>Coords</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">svg<wbr>Coords<span class="tsd-signature-symbol">(</span>p<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L49">core/svg.ts:49</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>p: <a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <a href="../interfaces/makerjs.ipoint.html" class="tsd-signature-type">IPoint</a></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+		<a name="todxf" class="tsd-anchor"></a>
+		<h3>toDXF</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+			<li class="tsd-signature tsd-kind-icon">toDXF<span class="tsd-signature-symbol">(</span>modelToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.idxfrenderoptions.html" class="tsd-signature-type">IDXFRenderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+			<li class="tsd-signature tsd-kind-icon">toDXF<span class="tsd-signature-symbol">(</span>pathsToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.idxfrenderoptions.html" class="tsd-signature-type">IDXFRenderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+			<li class="tsd-signature tsd-kind-icon">toDXF<span class="tsd-signature-symbol">(</span>pathToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.idxfrenderoptions.html" class="tsd-signature-type">IDXFRenderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/dxf.ts#L3">core/dxf.ts:3</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Renders an item in AutoDesk DFX file format.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>modelToExport: <a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.idxfrenderoptions.html" class="tsd-signature-type">IDXFRenderOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Rendering options object.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of DXF content.</p>
+			</li>
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/dxf.ts#L4">core/dxf.ts:4</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Renders an item in AutoDesk DFX file format.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>pathsToExport: <a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a><span class="tsd-signature-symbol">[]</span></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.idxfrenderoptions.html" class="tsd-signature-type">IDXFRenderOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Rendering options object.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of DXF content.</p>
+			</li>
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/dxf.ts#L5">core/dxf.ts:5</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Renders an item in AutoDesk DFX file format.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>pathToExport: <a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.idxfrenderoptions.html" class="tsd-signature-type">IDXFRenderOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Rendering options object.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of DXF content.</p>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+		<a name="toopenjscad" class="tsd-anchor"></a>
+		<h3>to<wbr>Open<wbr>JsCad</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+			<li class="tsd-signature tsd-kind-icon">to<wbr>Open<wbr>JsCad<span class="tsd-signature-symbol">(</span>modelToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.iopenjscadoptions.html" class="tsd-signature-type">IOpenJsCadOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+			<li class="tsd-signature tsd-kind-icon">to<wbr>Open<wbr>JsCad<span class="tsd-signature-symbol">(</span>pathsToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.iopenjscadoptions.html" class="tsd-signature-type">IOpenJsCadOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+			<li class="tsd-signature tsd-kind-icon">to<wbr>Open<wbr>JsCad<span class="tsd-signature-symbol">(</span>pathToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.iopenjscadoptions.html" class="tsd-signature-type">IOpenJsCadOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/openjscad.ts#L132">core/openjscad.ts:132</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Creates a string of JavaScript code for execution with the OpenJsCad engine.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>modelToExport: <a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Model object to export.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.iopenjscadoptions.html" class="tsd-signature-type">IOpenJsCadOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Export options object.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of JavaScript containing a main() function for OpenJsCad.</p>
+			</li>
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/openjscad.ts#L133">core/openjscad.ts:133</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Creates a string of JavaScript code for execution with the OpenJsCad engine.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>pathsToExport: <a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a><span class="tsd-signature-symbol">[]</span></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.iopenjscadoptions.html" class="tsd-signature-type">IOpenJsCadOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Export options object.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of JavaScript containing a main() function for OpenJsCad.</p>
+			</li>
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/openjscad.ts#L134">core/openjscad.ts:134</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Creates a string of JavaScript code for execution with the OpenJsCad engine.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>pathToExport: <a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.iopenjscadoptions.html" class="tsd-signature-type">IOpenJsCadOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Export options object.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of JavaScript containing a main() function for OpenJsCad.</p>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+		<a name="topdf" class="tsd-anchor"></a>
+		<h3>toPDF</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+			<li class="tsd-signature tsd-kind-icon">toPDF<span class="tsd-signature-symbol">(</span>doc<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PDFDocument</span>, modelToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.ipdfrenderoptions.html" class="tsd-signature-type">IPDFRenderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/pdf.ts#L10">core/pdf.ts:10</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Injects drawing into a PDFKit document.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>doc: <span class="tsd-signature-type">PDFDocument</span></h5>
+					</li>
+					<li>
+						<h5>modelToExport: <a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<p>Model object to export.</p>
+						</div>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.ipdfrenderoptions.html" class="tsd-signature-type">IPDFRenderOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<p>Export options object.</p>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+				<p>String of PDF file contents.</p>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+		<a name="tostl" class="tsd-anchor"></a>
+		<h3>toSTL</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+			<li class="tsd-signature tsd-kind-icon">toSTL<span class="tsd-signature-symbol">(</span>modelToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.iopenjscadoptions.html" class="tsd-signature-type">IOpenJsCadOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/openjscad.ts#L234">core/openjscad.ts:234</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Executes a JavaScript string with the OpenJsCad engine - converts 2D to 3D.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>modelToExport: <a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<p>Model object to export.</p>
+						</div>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagDefault value">Default value</span> options: <a href="../interfaces/makerjs.exporter.iopenjscadoptions.html" class="tsd-signature-type">IOpenJsCadOptions</a><span class="tsd-signature-symbol"> =&nbsp;{}</span></h5>
+						<div class="tsd-comment tsd-typography">
+							<p>Export options object.</p>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of STL format of 3D object.</p>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+		<a name="tosvg" class="tsd-anchor"></a>
+		<h3>toSVG</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+			<li class="tsd-signature tsd-kind-icon">toSVG<span class="tsd-signature-symbol">(</span>modelToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.isvgrenderoptions.html" class="tsd-signature-type">ISVGRenderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+			<li class="tsd-signature tsd-kind-icon">toSVG<span class="tsd-signature-symbol">(</span>pathsToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.isvgrenderoptions.html" class="tsd-signature-type">ISVGRenderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+			<li class="tsd-signature tsd-kind-icon">toSVG<span class="tsd-signature-symbol">(</span>pathToExport<span class="tsd-signature-symbol">: </span><a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/makerjs.exporter.isvgrenderoptions.html" class="tsd-signature-type">ISVGRenderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L268">core/svg.ts:268</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Renders an item in SVG markup.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>modelToExport: <a href="../interfaces/makerjs.imodel.html" class="tsd-signature-type">IModel</a></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.isvgrenderoptions.html" class="tsd-signature-type">ISVGRenderOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Rendering options object.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of XML / SVG content.</p>
+			</li>
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L269">core/svg.ts:269</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Renders an item in SVG markup.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>pathsToExport: <a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a><span class="tsd-signature-symbol">[]</span></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.isvgrenderoptions.html" class="tsd-signature-type">ISVGRenderOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Rendering options object.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of XML / SVG content.</p>
+			</li>
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/svg.ts#L270">core/svg.ts:270</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Renders an item in SVG markup.</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>pathToExport: <a href="../interfaces/makerjs.ipath.html" class="tsd-signature-type">IPath</a></h5>
+					</li>
+					<li>
+						<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/makerjs.exporter.isvgrenderoptions.html" class="tsd-signature-type">ISVGRenderOptions</a></h5>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Rendering options object.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+				<p>String of XML / SVG content.</p>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private">
+		<a name="trygetmodelunits" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> try<wbr>Get<wbr>Model<wbr>Units</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private">
+			<li class="tsd-signature tsd-kind-icon">try<wbr>Get<wbr>Model<wbr>Units<span class="tsd-signature-symbol">(</span>itemToExport<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/exporter.ts#L17">core/exporter.ts:17</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Try to get the unit system from a model</p>
+					</div>
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>itemToExport: <span class="tsd-signature-type">any</span></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+			</li>
+		</ul>
+	</section>
+	<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+		<a name="wrap" class="tsd-anchor"></a>
+		<h3><span class="tsd-flag ts-flagPrivate">Private</span> wrap</h3>
+		<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-is-private tsd-is-not-exported">
+			<li class="tsd-signature tsd-kind-icon">wrap<span class="tsd-signature-symbol">(</span>prefix<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, content<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, condition<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+		</ul>
+		<ul class="tsd-descriptions">
+			<li class="tsd-description">
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Microsoft/maker.js/blob/gh-pages/src/core/openjscad.ts#L20">core/openjscad.ts:20</a></li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+				</div>
+				<h4 class="tsd-parameters-title">Parameters</h4>
+				<ul class="tsd-parameters">
+					<li>
+						<h5>prefix: <span class="tsd-signature-type">string</span></h5>
+					</li>
+					<li>
+						<h5>content: <span class="tsd-signature-type">string</span></h5>
+					</li>
+					<li>
+						<h5>condition: <span class="tsd-signature-type">any</span></h5>
+					</li>
+				</ul>
+				<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+			</li>
+		</ul>
+	</section>
+</section>
+</div>
+<footer class="tsd-panel with-border-bottom">
+<div class="container">
+	<h2>Legend</h2>
+	<div class="tsd-legend-group">
+		<ul class="tsd-legend">
+			<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+			<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+			<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+			<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+			<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+			<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+			<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+		</ul>
+		<ul class="tsd-legend">
+			<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+			<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+			<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+		</ul>
+		<ul class="tsd-legend">
+			<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+			<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+			<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+			<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+			<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+			<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+		</ul>
+		<ul class="tsd-legend">
+			<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+			<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+			<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+			<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+			<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+			<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+		</ul>
+		<ul class="tsd-legend">
+			<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+			<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+			<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+			<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+		</ul>
+		<ul class="tsd-legend">
+			<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+			<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+		</ul>
+		<ul class="tsd-legend">
+			<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+			<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+		</ul>
+		<ul class="tsd-legend">
+			<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+			<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+		</ul>
+	</div>
+</div>
+</footer>
+<div class="container tsd-generator">
+<p>Generated using <a href="http://typedoc.io" target="_blank">TypeDoc</a></p>
+</div>
