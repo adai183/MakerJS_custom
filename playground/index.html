@@ -52,7 +52,7 @@
     </script>
 
 </head>
-<body class="no-notes collapse-annotation">
+<body class="no-notes collapse-annotation side-by-side show-params-link collapse-rendering-options">
     <a name="top"></a>
 
     <main>
@@ -64,7 +64,7 @@
         </div>
     </header>
 
-        <section id="blueprint-canvas">
+        <section id="blueprint-canvas" style="height: 90vh;">
 
             <svg id="grid">
                 <defs>
@@ -84,7 +84,7 @@
                 <rect fill="url(#gridPattern)" width="100%" height="100%" x="0" y="0"></rect>
             </svg>
 
-            <div id="view-params">
+            <div id="view-params" style="height: 90vh;">
                 <div id="view" touch-action="none" class="noselect">
                     <div id="view-svg-container"></div>
                     <svg id="pointers" xmlns="http://www.w3.org/2000/svg"></svg>
@@ -142,7 +142,7 @@
 
     </section>
 
-        <section class="editor">
+        <section class="editor" style="display: none;">
             <div>
                 <div class="code-header">
                     <span>
@@ -170,37 +170,7 @@ this.notes = '# Welcome to the Maker.js playground \n You can edit the JavaScrip
         </div>
     </section>
 
-    <div class="scroll-nav-links">
-        <span>jump to</span>
-        <span><a href="#code" onclick="document.querySelector('a[name=code]').scrollIntoView();return false;">code</a></span>
-        <span><a href="#top" onclick="document.querySelector('a[name=top]').scrollIntoView();return false;">top</a></span>
-    </div>
 
-        <div class="about">
-
-            <blockquote>
-                The <b>Maker.js Playground</b> is a sample app demonstrating the features of the Maker.js core library.
-                You can build your own apps using Maker.js, or it can be used command-line style with <a href="https://nodejs.org/" target="_blank">Node.js</a>.
-            </blockquote>
-
-            <h4>Credits:</h4>
-
-            <ul>
-                <li>Bezier curve calculation by <a href="https://pomax.github.io/bezierjs/" target="_blank">Bezier.js</a></li>
-                <li>Font file parsing by <a href="http://opentype.js.org/" target="_blank">Opentype.js</a></li>
-                <li>JavaScript editor by <a href="https://codemirror.net/" target="_blank">CodeMirror</a></li>
-                <li>Markdown rendering by <a href="https://github.com/chjj/marked" target="_blank">Marked</a></li>
-                <li>3D generation by <a href="https://joostn.github.io/OpenJsCad/" target="_blank">OpenJSCAD</a></li>
-                <li>PDF generation by <a href="http://pdfkit.org/" target="_blank">PDFKit</a></li>
-                <li>Multitouch pointer events polyfill by <a href="https://github.com/jquery/PEP" target="_blank">Jquery PEP</a></li>
-                <li>Binary data polyfill by <a href="https://github.com/inexorabletash/text-encoding" target="_blank">text-encoding</a></li>
-                <li>Fonts provided by <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
-            </ul>
-        </div>
-
-        <footer>
-            <a href="https://github.com/Microsoft"><img src="microsoft.png" height="16" /> Open source, from Microsoft with love.</a> <a href="http://aka.ms/privacy">Privacy Statement</a> &copy;2016&nbsp;Microsoft
-        </footer>
 
     </main>
 
